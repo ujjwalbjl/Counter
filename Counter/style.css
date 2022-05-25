@@ -1,0 +1,26 @@
+.container {
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 6rem;
+}
+
+
+.counter {
+    margin-left: 6rem;
+}
+
+.all-btns {
+    text-align: center;
+    margin-left: 3rem;
+
+}
+
+@media screen and (max-width: 576px) {
+  .counter,.all-btns,h1{
+      margin-left: 0px;
+
+  }
+  }
